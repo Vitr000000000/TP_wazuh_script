@@ -1,0 +1,27 @@
+[
+  {
+    "src_ip": "192.168.184.1",
+    "period": "2026-11-24T09:00:00+00:00",
+    "count": 40,
+    "max_severity": 10,
+    "hosts": [
+      "ciscolinux"
+    ],
+    "rules": [
+      "5710",
+      "5712"
+    ]
+  },
+  {
+    "src_ip": "192.168.184.1",
+    "period": "2026-11-24T11:00:00+00:00",
+    "count": 4,
+    "max_severity": 5,
+    "hosts": [
+      "wazuh-server"
+    ],
+    "rules": [
+      "5710"
+    ]
+  }
+]
